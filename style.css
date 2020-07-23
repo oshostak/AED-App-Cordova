@@ -1,0 +1,196 @@
+/*CSS styling for all html objects*/
+
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-color: #feeecd;
+	font-family: colibri;
+	margin: 0;
+	padding: 0;
+}
+
+td, tr, th{
+	text-align: center;
+	border: 1px solid black;
+	font-size: 150%;
+}
+
+input{
+	width: 80%;
+	height: 100%;
+	margin: 0;
+	font-size: 100%;
+}
+
+#navigation{
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	height: 10%;
+	background-color: #a30203;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation_menu{
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	align-content: center;
+	border-style: solid 1px;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation_name{
+	/*osition: static;*/
+	width: 80%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	align-content: center;
+	margin: 0;
+	padding-top: 0%;
+	text-align: center;
+}
+
+.navigation_text{
+	font-size: 500%;
+	color: white;
+	margin-top: 5%;
+	padding: 0;
+}
+
+#menu_image{
+	height: 60%;
+	width: 60%;
+	margin: 20%;
+	text-align: center;
+}
+
+
+#container{
+	width: 100%;
+	height: 200%;
+	margin: 0;
+	padding: 0;
+}
+
+.side_nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #d1675a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10%;
+}
+
+.side_nav a {
+  padding: 4%;
+  text-decoration: none;
+  font-size: 400%;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.side_nav a:hover {
+  color: #f1f1f1;
+}
+
+.side_nav .close_button {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.container_button{
+	width: 80%;
+	height: 1%;
+	margin: 10%;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	float: top;
+	background-color: #77ACA2;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.button_text{
+	font-size: 500%;
+	color: white;
+	margin: 0;
+	text-decoration: none;
+}
+
+.button_link{
+	text-decoration: none;
+}
+
+#assignments_table{
+	width: 100%;
+	margin: 0;
+	border: 1px solid black;
+}
+
+#new_elements_table{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 10%;
+	margin-bottom: 0;
+	border: 1px solid black;
+}
+
+#publish_assignments{
+	margin-left: 25%;
+	margin-top: 2%;
+	width: 50%;
+	height: 5%;
+	background-color: white;
+	border-style: solid 1px;
+	font-size: 400%;
+}
+
+#profile_picture{
+	width: 50%;
+	height: auto;
+	border-style: solid 1px;
+	align-self: center;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+
+#about_text{
+	font-size: 150%;
+	color: black;
+	margin: 0;
+	text-align: center;
+}
+
+#new_element_text{
+	margin: 0;
+}
+
+.screenshot_input{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	float: top;
+}
